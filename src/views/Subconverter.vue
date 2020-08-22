@@ -31,7 +31,7 @@
               </el-form-item>
 
               <div v-if="advanced === '2'">
-                <el-form-item label="后端地址:">
+                <el-form-item label="api.125cdn.xyz">
                   <el-autocomplete
                     style="width: 100%"
                     v-model="form.customBackend"
@@ -252,7 +252,7 @@ export default {
           ssd: "ssd",
           v2ray: "v2ray"
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [{ value: "http://api.125cdn.xyz/sub?" }],
         remoteConfig: [
           {
             label: "universal",
